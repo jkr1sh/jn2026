@@ -12,7 +12,7 @@ The project's primary inspiration comesfrom [SoftMC’s](https://pdl.cmu.edu/PDL
 - Generate test patterns, compare readback, and log failures by cell address.
 - Automate hold-time and operation-timing sweeps, producing per-cell pass/fail and retention plots. Use oscilloscope measurements to validate the underlying signals, with automated instrument control (via PyVISA) as a future extension.
 
-2. Build a discrete dram array (reference)
+2. Build a discrete homebrew dram array **[George Foot](https://hackaday.io/project/175774-homebrew-dynamic-ram-with-discrete-mosfets)** 
 - Build a small discrete DRAM array to validate the controller.
 - Demonstrate correct pattern readback, loss of data with refresh disabled, and continued storage with refresh enabled.
 
