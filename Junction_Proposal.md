@@ -3,7 +3,7 @@ The goal is to automate write, read, and refresh operations, and measure retenti
 
 Over two weeks, I’d develop and validate the control logic using a discrete transistor dram array, and with guidance from mentors and peers with fabrication experience, work on the frontend electrical interface for sensing and driving cells that have been or will be fabricated by initiatives like HackerFab *[(Dr. Semiconductor)](https://www.youtube.com/watch?v=h6GWikWlAQA)*
 
-The project's primary inspiration comesfrom SoftMC’s approach to memory testing. While SoftMC operates commercial DRAM modules through their DDR interface, this platform would target small experimental 1T1C arrays with accessible wordlines and bitlines, that could plausibly be fabricated in hackerfabs, while providing external driving, precharge, and sensing circuitry. Users could run configurable write/read/refresh sequences and characterize retention and timing behaviour.
+The project's primary inspiration comesfrom [SoftMC’s](https://pdl.cmu.edu/PDL-FTP/NVM/17hpca_softmc_abs.shtml) approach to memory testing. While SoftMC operates commercial DRAM modules through their DDR interface, this platform would target small experimental 1T1C arrays with accessible wordlines and bitlines, that could plausibly be fabricated in hackerfabs, while providing external driving, precharge, and sensing circuitry. Users could run configurable write/read/refresh sequences and characterize retention and timing behaviour.
 
 ### Two-week Target deliverables
 
